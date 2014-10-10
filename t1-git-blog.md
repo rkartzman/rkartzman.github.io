@@ -1,10 +1,12 @@
-Title
-Subtitle
+Gittin Jiggy With It
 
-Date
+Git For Beginners
+Friday Oct.10, 2014
 
-Paragraph 1
+Version Control: Putting it all together
 
-Paragraph 2
+Anyone that has seen the movie Memento is familiar with the computer programming concept of "version control." Guy Pearce is Leonard Shelby, suffering from amnesia, relentlessly trying to piece together the events of a murder that resulted in the death of his wife and his subsequent memory loss. Leonard uses Polaroids with snippets of information written on the back to piece together the events of the traumatic robbery. Each photograph and accompanying blurb provides a snapshot into the structure of his life and relationships prior to his injury.
 
-Paragraph 3
+Similarly, computer programmers use a system called git, which provides an analogous snapshot into the various versions of the software they have written. Git is a local repository, meaning it is stored on your computer, that harbors all the necessary information for a programmer to be able to track the entire lifespan of their code. In this way, git allows programmers to save their work each time they commit changes to the larger piece while always allowing them to revert back to an earlier version. Thus git provides a medium for virtual time travel in the programming world. Each time the code is saved, a snapshot of the changes is recorded and a quick summary of the modifications accompanies each "commit" to make it easier to sift through several versions.
+
+Programmers also benefit from an online repository called GitHub which works seamlessly with git on your computer to manage the many local versions on the computer with the master copy online. This invites teams working collaboratively on a project to continue to work independently without having to worry about potential "traffic jams," or overlaps. Thus GitHub serves as the final copy for any collaborative project and can be extremely beneficial when constantly iterating, resulting in a better product for the end user. Version control is merely one feature of git that makes it an incredibly useful tool for programmers.
