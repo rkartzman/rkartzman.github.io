@@ -1,3 +1,7 @@
+Culture is Key, and Charting the Right Path
+
+Remy Kartzman
+October 11, 2014
 
 When applying to Dev Bootcamp, I sold myself as someone that is both a thinker and a do-er, which I believe is no longer the norm in our society. Certainly there are both thinkers and do-ers but rarely in my opinion do people straddle both.Indeed, my generation (Y) is auspiciously endowed with the tools to be both, but it is a concious choice not an inevitability. My intuition is that Dev Bootcamp's mission is not only to produce competent programmers, but more broadly,to amplify one's personal ambition, to be an architect providing the builder with certain tools and wisdom--inspiration and caution alike.
 
