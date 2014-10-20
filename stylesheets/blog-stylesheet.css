@@ -28,6 +28,11 @@ li{
   background-color: transparent;
   font-family: Helvetica;
 }
+img{
+  height: 32px;
+  width: 32px;
+}
+
 a:link, a:visited{
   width: 120px;
   background-color: transparent;
