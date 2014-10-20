@@ -46,8 +46,8 @@ a:link, a:visited{
 .social{
   display: inline;
   background-color: transparent;
-  max-width: 32px;
-  max-height: 32px;
+  width: 32px;
+  height: 32px;
   margin: 220px auto;
   text-align: center;
   margin-left: 42%;
