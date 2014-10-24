@@ -1,0 +1,95 @@
+<!DOCTYPE>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/monokai_sublime.min.css">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+
+
+  <title>rkartzman</title>
+</head>
+<body>
+ <nav>
+    <ul>
+      <li>
+        <a href="http://rkartzman.github.io/c1-chefs-kitchen.html">BLOG</a>
+      </li>
+      <li>
+        <a href="http://rkartzman.github.io/about-page.html">ABOUT</a>
+      </li>
+      <li>
+        <a href="http://rkartzman.github.io/people-i-follow.html">PEOPLE I FOLLOW</a>
+      </li>
+    </ul>
+  </nav>
+<div>
+
+<article>
+ <h2>DIY Power Tools in Ruby</h2>
+ <h4>23rd Oct 2014</h4>
+<hr>
+<p>
+Week 3 of Phase 0 has been all about familiarizing ourselves with the idiosyncracies of Ruby. A few trends that are starting to emerge: Ruby is incredibly efficient and powerful, but it is also an extremely literal language. I often find myself over-complicating my programs. For example, if you had a string, called "word" and wanted to display the letters of the string in reverse, you would simply tell the string to perform that exact task, using:
+<pre>
+  <code>
+"word".reverse.
+ </code>
+</pre>
+
+</p>
+<p>
+Another trend is slightly counterintuitive to our societal norms: the path of least resistance is always encouraged when programming. Ruby has certain tools built in to it that are incredibly efficient, enabling you to store tons of information and ultimately saving you time in the long run.
+</p>
+<p>
+Two of the most common ways of storing large amounts of data into single objects are called: Arrays and Hashes. Both allow for the collection of data, however they are not mutually interchangeable, and would probably be employed for different tasks.
+</p>
+<p>
+An array is a list of objects, which in Ruby is just about everything. It's syntax is as follows:
+<pre>
+  <code>
+my_array = ["a", "b", "c", 1, 2]
+  </code>
+</pre>
+</p>
+<p>
+An array is not constrained to a homogenous list of objects, it can be any mix of strings, integers etc. The benefit of creating an array is that the information need only be entered once, and then it exists inside that ordered list for the life of your program. Arrays utitilize many of the same methods and are incredibly handy in situations that require an index. If it happens to be a very long list, a single item can be extracted from it by entering the name of the array and the position of the object. (FYI: Arrays number there positions beginning with 0). my_array[2] would yield "c" for example.
+</p>
+<p>
+
+Hashes take data storage to the next level by creating reusable labels that are associated with a list of key and corresponding value pairs. A hash is created by placing the key/value pairs inside curly braces.
+</p>
+<pre>
+  <code>
+
+hash = {:key => "value",
+:key1 => "value1",
+:key2 => "value2"
+}
+  </code>
+</pre>
+<p>
+If I wanted to identify a value from my hash I would simply reference its corresponding key by typing:
+<pre>
+  <code>
+hash [:key1]
+which would yield "value1".
+  </code>
+</pre>
+If you live near a metropolitan city(perhaps New York), you have likely been plagued weekly by the burden of coming up with a good spot to go for dinner close to where you live. My first inclination is to reach for that cumbersome stack of take-out menus from the drawer in the kitchen. But what I really want is list of my favorite restaurents in the area. Even more definitive, would be a list of all my favorite restaurants AND my favorite dish from the menu to really get my palette churning. Thus, what I am actually looking for is a hash, called:
+<pre>
+  <code>
+ fav_restaurants = { :chipotle => "burrito bowl with guac",
+:mcdonalds => "royale with cheese",
+:peterlugers => "filet mignon"
+}
+  </code>
+</pre>
+</p>
+<p>
+Such is the versatility of hashes and arrays, to perform the type of data organization that my brain is often either too lazy or too underdeveloped to perform on its own.
+</p>
+</div>
+<footer>October 23rd, 2014 | Remy Kartzman| Tech Blog</footer>
+
+</body>
+</html>
