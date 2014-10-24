@@ -60,6 +60,8 @@ a:link, a:visited{
 }
 
 h2{
+  display: block;
+  text-decoration: underline;
   color:gray;
   text-align: center;
   width: 40%;
@@ -101,8 +103,12 @@ h3 {
   top: 0px;
   height:40px;
   text-decoration: underline;
-
-
+}
+footer{
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  border-top: 2px solid gray;
 }
 
 
