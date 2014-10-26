@@ -2,14 +2,14 @@
 body {
   color:black;
   padding: 15px;
-  background: #f5f5f5;
-  font-family: Helvetica;
+  background:#969DB0;
+  font-family: 'Open Sans Condensed';Helvetica;
   letter-spacing: 1px;
 }
 nav{
   font-size: 1.5em;
   text-align: center;
-  background-color: transparent;
+  background-color: #A19393;
   width: 100%;
   z-index: 30;
   list-style-type: disc;
