@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="gps1-2.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+    <title>Title Here</title>
+  </head>
+  <body>
+ <header>
+      <h1>T4 ENUMERABLE METHODS CHEAT SHEET </h1>
+
+</header>
+ <main>
+  <div class="left">
+    <h2>Enumerables? Each and Map</h2>
+    <p> Enumerables is a module in Ruby, essentially a package of methods that includes iterators like each and map that allow the programmers to easily access elements and data stored in arrays and hashes. Each and Map in particular are exactly that, iterators that have the capability to sort through and array or hash, and manipulate each element in that collection according to the programmers needs.
+    </p>
+
+
+  </div>
+  <div class="right">
+  <h2>Compare Enumerables: Each & Map</h2>
+    <ul><b>Each</b>
+      <li>iterates</li>
+      <li>loop through collection and print values</li>
+      <li>will pass each element to the block specified</li>
+      <li>will return the original collection</li>
+      <li>ex.[1,2,3].each { |i| print "#{i}!"} => 1! 2! 3! => [1,2,3] </li>
+    </ul>
+      <ul><b>Map</b>
+        <li>iterate</li>
+        <li>loops through collection exactly like each</li>
+        <li>automatically returns a new array containing values returned by the block</li>
+        <li>use when you need a new array returned</li>
+        <li>think of it as "re-mapping your original collection" to create a more specific version  </li>
+      </ul>
+    </div>
+    </main>
+  <footer>November 1st, 2014 | Remy Kartzman | T4-Tech Blog</footer>
+</body>
+</html>
