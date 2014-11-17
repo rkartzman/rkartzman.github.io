@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700" rel="stylesheet" type="text/css">
+    <title>rkartzman</title>
+  </head>
+
+<body>
+ <nav>
+    <ul>
+      <li>
+        <a href="http://rkartzman.github.io/index.html">HOME</a>
+      </li>
+      <li>
+        <a href="http://rkartzman.github.io/blog/c1-chefs-kitchen.html">BLOG</a>
+        <ul>
+          <li>
+            <a href="http://rkartzman.github.io/blog/t3-arrays-hashes.html"></a>Tech Blog</li>
+          <li>
+            <a href="http://rkartzman.github.io/blog/c3-thinking-style.html"></a>Culture Blog</li>
+        </ul>
+      </li>
+      <li>
+        <a href="../rkartzman.github.io/projects">PROJECTS</a>
+        <ul>
+          <li><a href="http://rkartzman.github.io/projects/gps1-2.html"></a>GPS 1-2</li>
+        </ul>
+      </li>
+      <li>
+        <a href="http://rkartzman.github.io/about-page.html">ABOUT</a>
+      </li>
+      <li>
+        <a href="http://rkartzman.github.io/people-i-follow.html">PEOPLE I FOLLOW</a>
+      </li>
+    </ul>
+  </nav>
+
+   <div>
+    <img class="pic"src="https://media.licdn.com/mpr/mpr/shrink_240_240/p/1/005/07e/2b7/01f2446.jpg">
+  </div>
+
+<div>
+  <h2>Remy Kartzman</h2>
+</div>
+
+
+<div class="social">
+
+ <a href="https://www.twitter.com/remykartz">
+    <img class="buttons"src="http://loopele.com/wp-content/uploads/2014/07/twitter-logo.jpg" alt>
+ </a>
+ <a href="https://plus.google.com/u/0/112522993180188882276/posts/p/pub?cfem=1">
+    <img class="buttons"src="https://cdn3.iconfinder.com/data/icons/picons-social/57/80-google-plus-512.png"alt>
+  </a>
+  <a href="www.linkedin.com/in/remykartzman/">
+    <img class="buttons"src="http://www.iconsdb.com/icons/preview/black/linkedin-3-xxl.png"alt>
+  </a>
+</div>
+
+<h3 class="recents">Recent Posts</h3>
+<h3>Classes in Ruby</h3>
+
+<p>
+  Almost every resource I have used during my introduction the Ruby programming language has relied on two dictums to convey its teachings. One is that Ruby is an Object Oriented language, and the other is that "everything in Ruby is an object". Clearly both of these are related, however they are not necessarily always used in conjuction with one another.  New programmers are also often told that Ruby is perhaps the easiest language to pickup due to its simplicity and english like syntax. This can be true, but like the English language, the various idiosyncracies are often paradoxical, often contradicting themselves. The idea that everythign in Ruby is an object, suggests that every aspect of the language is equivalent--related somehow in the way that people are all human beings and apples and oranges are both fruit.
+For the most part this is true at the most basic level in Ruby. On the other hand, I was recently introduced to the concept of classes, which skews this logic, adding an aditional layer of complexity to the way one should design their programs in Ruby if they plan to make it flexible and adaptable over the long run. In other words, classes allow you to create kinship in Ruby whereby a sort of inheritance is transposed across objects, ultimately allowing separate objects contain the same data.
+
+In other words it allows you to access all the methods, and instance variables of a parent class. Sandy Metz, author of "Practical Object Oriented Design in Ruby" calls inheritence "a mechanism for automatic message delegation." While this may abstract the idea of classes it also implies a neat organizational structure of superclasses and their subclasses into something akin to a family tree. The example she uses is one of a Bicycle superclass with Roadbike and Mountainbike subclasses that inherit many of the behaviors of their parent class. Ruby differs from the traditional biological model however. Whereas it is natural to think of a child as having two parents from which it inherits its traits and behavioral makeup, objects in Ruby contain only a single inheritance, that is one superclass parent. Otherwise, Ruby would have to cross check more than container object in order to establish where the automated behavior is intended to derive from creating many confusions from Ruby to understand where to send its messages.
+
+The syntax is rather simple when creating classes. Below is an oversimplification of what class inheritance would look like in Ruby. The key points to remember are: classes begin with a capital letter, they must be created along with an initialize method, and inheritance is described using the < symbol to denote subclass to the left and superclass to the right of the symbol.The initialize method is a function that will be called when a new object of that class is created. Ruby will do then add its secret sauce to that object.
+
+class Fruit
+
+  def initialize()
+    @instance = instance
+  end
+
+  def method1
+  end
+class Apple < Fruit
+
+  def initialize()
+
+  end
+
+  def method2
+
+  end
+end
+
+Now when a new object apple = Apple.new() is created it will inherit all of the behaviors/attributes of the parent fruit class including access to all of its instance variables. Messages can then be sent to the object apple using dot. notation like any othe object in Ruby.
+
+Classes can be a useful tool, but should be designed with careful attention to their flexibility over time. A superclass that is overly specific can ultimately create confusion and unintended overlaps in the inherited behaviors of their children.
+
+</p>
+
+
+      </div>
+    <hr>
+  <footer>November 17, 2014 | Remy Kartzman| HOME</footer>
+
+  </body>
+</html>
+
+
