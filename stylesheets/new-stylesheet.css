@@ -5,6 +5,20 @@ body {
   font-family: 'Open Sans Condensed';Helvetica;
   letter-spacing: 1px;
 }
+header {
+        text-align: center;
+        display: block;
+        border-bottom: 2px solid gray;
+        background-image: url(http://p1.pichost.me/640/60/1837625.jpg);
+        color: white;
+        background-size: cover;
+
+      }
+
+      main {
+        display: block;
+        font-family: 'Open Sans Condensed', Helvetica, Arial;
+      }
 
 nav{
   font-size: 1.5em;
@@ -22,8 +36,8 @@ ul{
   display: inline;
   margin: 0;
   padding: 0;
-  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.15);
-  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+ /* -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 
 }
@@ -36,13 +50,27 @@ ul{
 .social{
   display: inline;
   background-color: transparent;
-  width: 32px;
+  width: 10%;
   height: 32px;
   margin: 220px auto;
   text-align: center;
   margin-left: 42%;
   top: 60px;
 }
+
+.buttons{
+  border:2px solid black;
+  height: 30px;
+  display:inline-block;
+  width: 30px;
+}
+
+ .post{
+          display:inline-block;
+          width:40%;
+          vertical-align:text-top;
+
+      }
 
 footer{
   display: block;
