@@ -1,8 +1,0 @@
-Culture is Key, and Charting the Right Path
-
-Remy Kartzman
-October 11, 2014
-
-When applying to Dev Bootcamp, I sold myself as someone that is both a thinker and a do-er, which I believe is no longer the norm in our society. Certainly there are both thinkers and do-ers but rarely in my opinion do people straddle both.Indeed, my generation (Y) is auspiciously endowed with the tools to be both, but it is a concious choice not an inevitability. My intuition is that Dev Bootcamp's mission is not only to produce competent programmers, but more broadly,to amplify one's personal ambition, to be an architect providing the builder with certain tools and wisdom--inspiration and caution alike.
-
-My perception of Dev Bootcamp has certainly changed in recent weeks. While it is difficult not to view the intensive nature of the next 20 weeks as some form of a long term investment, my frame of mind is no longer focused on the outcome that will ensue afterwards. Rather, I am eager to see how elastic my bandwith for creation is and how far I can stretch my limits. The unique cultural environment at DBC is designed to enhance this process and as such I am excited to be taking part in it.
