@@ -99,6 +99,16 @@ a {
   border: solid gray 1px;
 }
 
+.sota{
+  height: 400px;
+  border: solid gray 1px;
+}
+
+.myaq{
+  height: 200px;
+  border: solid gray 1px;
+}
+
 #main .wip {
   border: solid #d3d3d3 3px;
   padding: 3px;
